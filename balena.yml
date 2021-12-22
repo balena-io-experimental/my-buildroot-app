@@ -1,3 +1,7 @@
-type: type-balena-io-playground/t-buildroot-kconfig@1.0.0
+type: type-balena-io-playground-t-buildroot-kconfig@1.1.0
+name: Distroless Lighttpd base image
+version: 0.0.2
 data:
-  configs: 
+  $transformer: {}
+  configs:
+    - BR2_PACKAGE_LIGHTTPD=y
