@@ -1,6 +1,6 @@
 type: type-balena-io-playground-t-buildroot-kconfig@1.1.0
 name: Distroless Lighttpd base image
-version: 0.0.2
+version: 0.0.3
 data:
   $transformer: {}
   configs:
